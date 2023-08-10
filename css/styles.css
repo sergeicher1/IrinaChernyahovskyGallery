@@ -1,0 +1,76 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.gallery {
+  background-color: bisque;
+  padding-top: 300px;
+}
+img {
+  max-width: 100%;
+}
+
+.gallery img {
+  background-color: lightcyan;
+  padding: 2px;
+  width: 100%;
+  box-shadow: 0 0 5px azure;
+  cursor: pointer;
+}
+#gallery-modal .modal-img {
+  width: 100%;
+}
+#active {
+  float: right;
+}
+.active {
+  background-color: bisque;
+  /* border: 1px solid thistle; */
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: 0px 0px 20px bisque;
+}
+
+#contdiv {
+  background-color: bisque;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+#contact {
+  background: bisque;
+  color:  darkgrey;
+  font-size: 45px;
+  border: 1px solid cyan;
+  border-radius: 50px;
+  /*Defines animation description*/
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/*Add keyframes to animation from to */
+@keyframes anim {
+  from {
+    background: bisque;
+    box-shadow: 0px 0px 10px bisque;
+  }
+  to {
+    background: cyan;
+    box-shadow: 0px 0px 100px cyan;
+  }
+}
+
+#contact:hover {
+  color: white;
+  background-color: bisque;
+  border: 1px solid white;
+  box-shadow: 0px 0px 100px cyan;
+}
+
+.contimg {
+  width: 42px;
+  height: 42px;
+}
+.contpad {
+  padding-top: 200px;
+  text-align: center;
+}
