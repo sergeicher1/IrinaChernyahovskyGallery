@@ -71,6 +71,31 @@ img {
   height: 42px;
 }
 .contpad {
-  padding-top: 200px;
+  /* padding-top: 200px; */
   text-align: center;
+}
+/* Responsive changes  */
+/* Laptops */
+#contact {
+  font-size: 25px;
+}
+.contimg {
+  width: 30px;
+  height: auto;
+}
+/* Mobile big screen */
+#contact {
+  font-size: 20px;
+}
+.contimg {
+  width: 20px;
+  height: auto;
+}
+#contdiv {
+  margin-top: 10%;
+}
+/* Mobile 16:9 */
+#contdiv {
+  margin: auto;
+  margin-top: 10%;
 }
