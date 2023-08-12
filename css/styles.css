@@ -14,7 +14,7 @@ img {
   background-color: lightcyan;
   padding: 2px;
   width: 100%;
-  box-shadow: 0 0 5px azure;
+  box-shadow: 0 0 20px rgb(129, 163, 238);
   cursor: pointer;
 }
 #gallery-modal .modal-img {
