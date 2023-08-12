@@ -11,10 +11,10 @@ img {
 }
 
 .gallery img {
-  background-color: lightcyan;
+  background-color:lightcyan;
   padding: 2px;
   width: 100%;
-  box-shadow: 0 0 20px rgb(129, 163, 238);
+  box-shadow: 0 0 40px rgb(167, 227, 238);
   cursor: pointer;
 }
 #gallery-modal .modal-img {
